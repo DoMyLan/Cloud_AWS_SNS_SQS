@@ -4,10 +4,10 @@ app = Flask(__name__, template_folder = 'templates')
 from werkzeug.utils import secure_filename
 
 s3 = boto3.client('s3',
-                    aws_access_key_id='ASIAYIGV5MH57IT5XOG5',
-                    aws_secret_access_key= 'EhPox4/epYePRMQF+9HsxFUrTM8Ew+YGX1iyXqEw',
-                    aws_session_token='FwoGZXIvYXdzEMT//////////wEaDHGx0Aps13YYmDpgyyLPAVcd7wz009nVsTEuHYPddqy0gmegbIbuzcd5wruMM4V4zczd3ytKqlYQXYOm69drfwJ+Jj/H44CqlKQN7c4bA34HVy33HCwF6XRlGEGos8tVkJqS5H92XbQz5GJp127MU7gaSkB/RpZwzxLZ+UEOlbgEOgEuNnLGiH9E/F1yGfxxEQ+7SIYnxxY7Sqsnvw2M3dxgGXJ3QGFP2nKl7f5Vd25DlbMzBrfS2MHlCn9+kPVmIUCexf6pmaTWZVrUp8j2/Va+CcVc2s13OSf3E8aePijFj7CcBjItvWBJS7pPZrq7whpP756EtAQ3awe+qmY5svz7ln+UZWSLSWkj72SGjd4bBr7z')
-
+                    aws_access_key_id='ASIAYIGV5MH5WCMW546I',
+                    aws_secret_access_key= 'QDvMsQDFcgTHTpqZugnjOerYTQ2kvzzOW9HRZoxS',
+                    aws_session_token='FwoGZXIvYXdzEOn//////////wEaDMP1DrOj1/R2bWd2GCLPAfsUWlui6ujT0Tc+LjGMH4LAXP8IufPD2ypQsL7ZE9A40cZTuEDptNzpo3cjdcXvLyDXi5bjrv+iQGoTyNX/x7uWs3lTvSC26YfmhIWnwTE0PjZ5K8NMe9UUOufXC7jyfc1T7+OCfSESWNadA/vRKug9qwXPCxBcfL5TvMonf/I+lznYbx5lvtXUBTrYEk7g1Z9wKSdHiBPplnl7/05F8l7+a8yGqj0AedUXZtLCPG7EeGvOcTacw8hvWQbNObsNMxiA8l93jNbjHNN+4vXMJCjvqricBjItXWjB6Ai+K2ML07lFY+5OZTci3t9wdSZ3BoBmdSPLvpk0R/LEOBR4iu6mOVpA'
+                    )
 
 BUCKET_NAME='mybucketcloudfinal'
 
@@ -33,7 +33,6 @@ def upload():
             flash('No file path')
 
     return render_template("Cloud.html",msg =msg)
-
 
 
 
