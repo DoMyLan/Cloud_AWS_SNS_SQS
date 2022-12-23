@@ -43,7 +43,7 @@ Lưu ý: Nên sử dụng thư viện ảo app đã có sẵn khi clone về.
 <img width="438" alt="image" src="https://user-images.githubusercontent.com/115056835/209306112-bb91d035-3339-4ac4-9b9d-38035c382f15.png">
 3. Tạo sẵn 1 VPC "Public_Access"
 <img width="439" alt="image" src="https://user-images.githubusercontent.com/115056835/209306320-7af705cc-d651-43e6-a826-7c391f538e46.png">
-Hoàn tất khởi tạo 1 instance
+---->Hoàn tất khởi tạo 1 instance
 
 ### Kết nối instance vừa tạo với máy ảo ubuntu
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/115056835/209307181-bbbada5d-1d82-4340-93da-e46ba03e78be.png">
