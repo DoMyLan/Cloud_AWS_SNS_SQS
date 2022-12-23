@@ -3,12 +3,12 @@
 
 ## Project use DynamoDB + EC2 + Lambda + VPC + SQS + SNS
 
-## 🔗 Thành viên
+## Thành viên
 - Đỗ Thị Mỹ Lan - 20110666
 - Bùi Quốc Tĩnh - 20110737
 - Nguyễn Hữu Đạt - 20110630
 
-## 🔗 Các chức năng chính
+## Các chức năng chính
 - Đăng ký tài khoản trên website
 - Đăng nhập vào hệ thống
 - Thay đổi số dư trong tài khoản
@@ -104,7 +104,7 @@ Chạy project trên máy ảo ubuntu
   python3 run.py
 ```
 
-DONE !!!
+DONE !!! TA THỰC THI CÁC THAO TÁC VỚI PROJECT NHƯ CHẠY TRÊN LOCALHOST
 
 
 
