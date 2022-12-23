@@ -47,6 +47,7 @@ Hoàn tất khởi tạo 1 instance
 
 ### Kết nối instance vừa tạo với máy ảo ubuntu
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/115056835/209307181-bbbada5d-1d82-4340-93da-e46ba03e78be.png">
+
 ### Khi được chuyển đến giao diện như hình là ta đã kết nối thành công
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/115056835/209307604-c3a776dc-7b3f-4557-a0dc-3def2c9e9c89.png">
 
@@ -62,10 +63,48 @@ Cài đặt thêm một số công cụ hỗ trợ sử dụng python
 ```bash
   sudo add-apt-repository ppa:deadsnakes/ppa
   sudo apt install python3.8
+  sudo apt install git
+  sudo apt-get install python3-pip
+```
+Kiểm tra version của python
+```bash
+  python3.8 --version
 ```
 
+Clone project "Cloud_AWS_SNS_SQS" with github
+```bash
+  git clone https://github.com/DoMyLan/Cloud_AWS_SNS_SQS.git
+```
 
+Sử dụng port 5555
+```bash
+  sudo ufw allow 5000
+```
 
+Đi đến thư mục Cloud_AWS_SNS_SQS
+```bash
+  cd Cloud_AWS_SNS_SQS
+```
+
+Cài đặt thư viện
+```bash
+  pip3 install -r requirements.txt
+```
+
+Cấu hình lại file run.py
+```bash
+  from app import app
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0',port=5000)
+```
+
+Chạy project trên máy ảo ubuntu 
+```bash
+  python3 run.py
+```
+
+DONE !!!
 
 
 
