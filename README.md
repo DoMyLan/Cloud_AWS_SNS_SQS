@@ -25,7 +25,7 @@ Clone project "Cloud_AWS_SNS_SQS" with github
 ```bash
   git clone https://github.com/DoMyLan/Cloud_AWS_SNS_SQS.git
 ```
-Truy cập thư mục chứa project DYNAMODB_FLASK
+Truy cập thư mục chứa project
 ```bash
   cd WEB_CLOUD_DEMO
 ```
