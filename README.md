@@ -49,6 +49,7 @@ Hoàn tất khởi tạo 1 instance
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/115056835/209307181-bbbada5d-1d82-4340-93da-e46ba03e78be.png">
 ### Khi được chuyển đến giao diện như hình là ta đã kết nối thành công
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/115056835/209307604-c3a776dc-7b3f-4557-a0dc-3def2c9e9c89.png">
+
 Cài đặt và update máy ảo ubuntu
 ```bash
   sudo apt update
