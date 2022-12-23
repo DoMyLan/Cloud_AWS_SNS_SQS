@@ -36,9 +36,11 @@ Chạy file run.py
 Lưu ý: Nên sử dụng thư viện ảo app đã có sẵn khi clone về.
 
 ## Deploy Web lên AWS
-1. Tạo một instance trên EC2
-Đặt tên cho instances và chọn AMIs là Ubutu
-<img width="941" alt="Screenshot 2022-12-23 151810" src="https://user-images.githubusercontent.com/115056835/209303883-c3ba51db-c640-46f4-8e43-fe6a12ba8c53.png">
+1. Tạo một instance trên EC2 với các tùy chọn như hình
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/115056835/209304713-228f0032-c73a-46c2-be18-c5d1d307b94f.png">
+Tạo sẵn 1 VPC "Public_Access"
+<img width="442" alt="image" src="https://user-images.githubusercontent.com/115056835/209305199-530fd3b8-bdee-43ce-a653-b724b685f4ab.png">
+
 
 
 
