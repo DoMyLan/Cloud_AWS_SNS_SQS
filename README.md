@@ -37,9 +37,9 @@ Lưu ý: Nên sử dụng thư viện ảo app đã có sẵn khi clone về.
 
 ## Deploy Web lên AWS
 1. Tạo một instance trên EC2 
-## Sử dụng aaa
+### Sử dụng aaa
 <img width="411" alt="image" src="https://user-images.githubusercontent.com/115056835/209304713-228f0032-c73a-46c2-be18-c5d1d307b94f.png">
-## Tạo sẵn 1 VPC "Public_Access"
+### Tạo sẵn 1 VPC "Public_Access"
 <img width="442" alt="image" src="https://user-images.githubusercontent.com/115056835/209305199-530fd3b8-bdee-43ce-a653-b724b685f4ab.png">
 
 
