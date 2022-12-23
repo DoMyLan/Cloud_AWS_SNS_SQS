@@ -38,9 +38,12 @@ Lưu ý: Nên sử dụng thư viện ảo app đã có sẵn khi clone về.
 ## Deploy Web lên AWS
 ### Tạo 1 instance trên EC2
 1. Chọn AMIs là ubuntu
-<img width="411" alt="image" src="https://user-images.githubusercontent.com/115056835/209304713-228f0032-c73a-46c2-be18-c5d1d307b94f.png">
-2. Tạo sẵn 1 VPC "Public_Access"
-<img width="442" alt="image" src="https://user-images.githubusercontent.com/115056835/209305199-530fd3b8-bdee-43ce-a653-b724b685f4ab.png">
+<img width="439" alt="image" src="https://user-images.githubusercontent.com/115056835/209306026-a6b8bacc-6d5c-492c-94cf-5d295748878d.png">
+2. Chọn instaces types và keypair
+<img width="438" alt="image" src="https://user-images.githubusercontent.com/115056835/209306112-bb91d035-3339-4ac4-9b9d-38035c382f15.png">
+4. Tạo sẵn 1 VPC "Public_Access"
+<img width="439" alt="image" src="https://user-images.githubusercontent.com/115056835/209306320-7af705cc-d651-43e6-a826-7c391f538e46.png">
+Hoàn tất khởi tạo 1 instance
 
 
 
